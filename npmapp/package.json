@@ -1,0 +1,35 @@
+{
+  "name": "npmapp",
+  "version": "1.0.3",
+  "description": "A test button",
+  "main": "dist/btn.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open --mode development",
+    "serve": "vue-cli-service serve"
+  },
+  "keywords": [
+    "npmapp",
+    "button"
+  ],
+  "author": "thomaszhou",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "sass-loader": "^7.2.0",
+    "vue": "^2.5.2",
+    "vue-hot-reload-api": "^2.2.4",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.4.2",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.9",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
